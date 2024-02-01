@@ -3,6 +3,7 @@ path = "inverse_velocity/data/"
 
 # Optimization sub-table
 [optimization]
+type = 'adam'
 niteration = 30
 inverse_timestep_range = [300, 380]
 checkpoint_interval = 1
